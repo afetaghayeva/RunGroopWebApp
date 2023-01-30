@@ -29,7 +29,7 @@
     <div class="form-group">
         <label asp-for="Address.City">City</label>
         <input asp-for="Address.City" class="form-control" placeholder="City">
-        <span asp-validation-for="Address.Street" class="text-danger"></span>
+        <span asp-validation-for="Address.City" class="text-danger"></span>
     </div>
     <div class="form-group">
         <label asp-for="Address.State">State</label>
@@ -40,7 +40,6 @@
         <label asp-for="Image">Image</label>
         <input asp-for="Image" type="file" class="form-control" placeholder="Image">
         <span asp-validation-for="Image" class="text-danger"></span>
-
     </div>
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
